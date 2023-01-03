@@ -1,0 +1,18 @@
+{
+  "comments": {
+    "lineComment": "#"
+  },
+  "brackets": [["[", "]"]],
+  "autoCloseBefore": "]",
+  "surroundingPairs": [["[", "]"]],
+  "folding": {
+    // the regex for the start of a block, which begins with any line that is square brackets enclosing a wordPattern (a word or a collection of words seperated by a . and only ever a .)
+    "markers": {
+      "start": "^\\s*\\[([a-zA-Z0-9_]+\\.)*[a-zA-Z0-9_]+\\]",
+      "end": "^\\s*\\[/([a-zA-Z0-9_]+\\.)*[a-zA-Z0-9_]+\\]"
+    }
+  },
+
+  // the regex for any word of any length, or any collecton of words seperated by a . and only ever a .
+  "wordPattern": "([a-zA-Z0-9_]+\\.)*[a-zA-Z0-9_]+"
+}

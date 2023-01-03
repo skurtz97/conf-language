@@ -20,6 +20,20 @@
         "title": "Hello World"
       }
     ],
+    "languages": [
+      {
+        "id": "conf",
+        "aliases": [
+          "conf",
+          "ini"
+        ],
+        "extensions": [
+          ".conf",
+          ".ini"
+        ],
+        "configuration": "./languages/language-configuration.json"
+      }
+    ],
     "grammars": [
       {
         "language": "conf",
