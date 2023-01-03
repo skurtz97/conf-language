@@ -37,7 +37,7 @@
     "grammars": [
       {
         "language": "conf",
-        "scopeName": "source.conf",
+        "scopeName": "source.conf", 
         "path": "./syntaxes/conf.tmLanguage.json"
       }
     ]
