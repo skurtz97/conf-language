@@ -4,11 +4,11 @@
     "fileTypes": ["conf","ini"],
     "patterns": [
         {
-            "name": "block.start.open",
+            "name": "block.start",
             "match": "^\\%5B{1}\\"
         },
         {
-            "name": "block.start.close",
+            "name": "block.end",
             "match": "\\%5D{1}$"
         },
         {

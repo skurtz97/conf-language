@@ -38,9 +38,20 @@
       {
         "language": "conf",
         "scopeName": "source.conf", 
-        "path": "./syntaxes/conf.tmLanguage.json"
-      }
-    ]
+        "path": "./syntaxes/conf.tmLanguage.json",
+        "tokenTypes": {
+          "block.start": "other",
+          "block.end": "other",
+          "heading": "string",
+          "key": "string",
+          "value": "string",
+          "key.equals.value": "string"
+        }
+          
+
+        }]
+        
+    
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
